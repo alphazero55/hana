@@ -1,0 +1,18 @@
+nav.navbar.navbar-default.navbar-fixed-top(ng-controller="navbarCtrl")
+ div.container
+  div.navbar-header
+   button.navbar-toggle.collapsed(type="button" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar")
+    span.sr-only Toggle navigation
+    span.icon-bar
+    span.icon-bar
+    span.icon-bar
+   a.navbar-brand.ipresence-brand(href="#") 
+    img#ipresence-brand-img(src="./img/ipresence.jpg")
+  div#navbar.navbar-collapse.collapse
+   ul.nav.navbar-nav
+    li(ui-sref-active="active" ng-click="collase_toggle()")
+     a(ui-sref="top") Top 
+    li(ui-sref-active="active" ng-click="collase_toggle()")
+     a(ui-sref="func1") Func1 
+    li(ui-sref-active="active" ng-click="collase_toggle()")
+     a(ui-sref="func2") Func2 

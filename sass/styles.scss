@@ -1,0 +1,18 @@
+// Import Bootstrap Compass integration
+@import "bootstrap-compass";
+
+// Import custom Bootstrap variables
+@import "bootstrap-variables";
+
+// Import Bootstrap for Sass
+@import "bootstrap";
+
+body{
+    padding-top: 50px
+}
+.ipresence-brand{
+    padding: 0px 0px;
+}
+#ipresence-brand-img{
+    height: 100% 
+}
