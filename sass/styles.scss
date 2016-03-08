@@ -7,6 +7,9 @@
 // Import Bootstrap for Sass
 @import "bootstrap";
 
+//compass
+@import "compass";
+
 body{
     padding-top: 50px
 }
@@ -16,3 +19,4 @@ body{
 #ipresence-brand-img{
     height: 100% 
 }
+

@@ -1,6 +1,6 @@
 var router = require('koa-router')();//koa-routerのインスタンス
 var common = require('koa-common');//sub ap
-var koa = require('koa');//socket.io
+var koa = require('koa');
 var join = require('path').join;
 var _ = require('lodash');
 var config = require('config');
